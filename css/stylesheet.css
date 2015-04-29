@@ -1,6 +1,11 @@
 BODY {
 	background: url("background.jpg") repeat-x;
 	background-color: #DEDEDE;
+	text-align: left;
+}
+
+HEADER {
+	text-align: center;
 }
 
 A {
@@ -11,10 +16,12 @@ A {
 ARTICLE {
 	font-family: sans-serif;
 	font-size: 10px;
+	padding-bottom: 10px;
 }
 
 H1 {
 	font-size: 160%;
+	text-align: left;
 }
 
 .bottom_line {
@@ -22,8 +29,6 @@ H1 {
 }
 
 #wrapper {
-    width: 60%;
-    max-width: 50em;
     margin: 0 auto;
 }
 
@@ -31,7 +36,8 @@ NAV {
 	font-family: sans-serif;
 	font-size: 10px;
 	font-weight: bold;
-	float: right;
+	float: left;
+	max-width: 20%;
 	overflow: hidden;
 	background-color: #FFFFFF;
 	padding: 10px;
@@ -40,21 +46,23 @@ NAV {
 
 #main {
 	float: left;
+	width: 50vw;
 	background-color: #FFFFFF;
 	padding: 10px;
 	margin: 10px;
 }
 
 UL {
-	text-align: left;
-}
-
-LI {
-	list-style-type: none;
-	padding: 1px;
-	text-align:
-}
+    padding-left:0;
+    list-style-type: none;
+}​
 
 IMG {
-	max-width: 100%
+	width: 50vw;
+}
+
+FOOTER {
+	float: left;
+	text-align: center;
+	width: 100%;
 }
