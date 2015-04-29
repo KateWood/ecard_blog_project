@@ -1,11 +1,60 @@
+BODY {
+	background: url("background.jpg") repeat-x;
+	background-color: #DEDEDE;
+}
+
 A {
 	color: red;
 	font-weight: strong;
 }
+
 ARTICLE {
 	font-family: sans-serif;
 	font-size: 10px;
 }
+
 H1 {
 	font-size: 160%;
+}
+
+.bottom_line {
+	border-width: 2px;
+}
+
+#wrapper {
+    width: 60%;
+    max-width: 50em;
+    margin: 0 auto;
+}
+
+NAV {
+	font-family: sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	float: right;
+	overflow: hidden;
+	background-color: #FFFFFF;
+	padding: 10px;
+	margin: 10px;
+}
+
+#main {
+	float: left;
+	background-color: #FFFFFF;
+	padding: 10px;
+	margin: 10px;
+}
+
+UL {
+	text-align: left;
+}
+
+LI {
+	list-style-type: none;
+	padding: 1px;
+	text-align:
+}
+
+IMG {
+	max-width: 100%
 }
